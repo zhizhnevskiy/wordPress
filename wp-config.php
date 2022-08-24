@@ -20,22 +20,22 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress' );
+const DB_NAME = 'wordpress';
 
 /** Database username */
-define( 'DB_USER', 'root' );
+const DB_USER = 'root';
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+const DB_PASSWORD = 'root';
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+const DB_HOST = 'localhost';
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+const DB_CHARSET = 'utf8';
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+const DB_COLLATE = '';
 
 /**#@+
  * Authentication unique keys and salts.
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+const AUTH_KEY = 'zhizhnevskiy';
+const SECURE_AUTH_KEY = 'zhizhnevskiy';
+const LOGGED_IN_KEY = 'zhizhnevskiy';
+const NONCE_KEY = 'zhizhnevskiy';
+const AUTH_SALT = 'zhizhnevskiy';
+const SECURE_AUTH_SALT = 'zhizhnevskiy';
+const LOGGED_IN_SALT = 'zhizhnevskiy';
+const NONCE_SALT = 'zhizhnevskiy';
 
 /**#@-*/
 
@@ -79,7 +79,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+const WP_DEBUG = false;
 
 /* Add any custom values between this line and the "stop editing" line. */
 
