@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top pt-5 pb-3">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +47,9 @@
         </form>
     </div>
 </nav>
-<main role="main" class="container pt-5">
-    <div class="starter-template pt-5">
+<?php wp_nav_menu('theme_location=top');?>
+<main role="main" class="container pt-3">
+    <div class="starter-template">
         <div class="row">
             <div class="col-lg-8">
                 <header class="header">

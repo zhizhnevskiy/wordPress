@@ -5,10 +5,10 @@
 
 </main>
 
-<footer class="py-3 bg-dark">
-    <div class="container">
-        <p class="text-center text-white">© Zhizhnevskiy <?php echo date('Y') ?></p>
-    </div>
+<footer class="py-3 bg-dark ">
+        <div class="container">
+            <p class="text-center text-white">© Zhizhnevskiy <?php echo date('Y') ?></p>
+        </div>
 </footer>
 
 <?php wp_footer(); ?>
